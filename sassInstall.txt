@@ -1,0 +1,3 @@
+необходимо установить Node.js на компьютер
+npm install
+npm install -g sass
