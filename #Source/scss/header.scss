@@ -1,185 +1,196 @@
+
+body {
+  overflow: auto;
+}
+@media (max-width: $md3+px) {
+  body.lock {
+    overflow: hidden;
+  }
+}
+
+
 .header {
-    position: absolute;
-    width: 100%;
-    z-index: 50;
-    left: 0;
-    top: 35px;
-    @media (max-width: $md3+px) {
-        top: 30px;
-    }
+  position: absolute;
+  width: 100%;
+  z-index: 50;
+  left: 0;
+  top: 35px;
+  @media (max-width: $md3+px) {
+    top: 30px;
+  }
 
-    .header__row {
-        @include flexbox();
-        justify-content: center;
-        align-items: center;
-        height: 90px;
+  .header__row {
+    @include flexbox();
+    justify-content: center;
+    align-items: center;
+    height: 90px;
 
-        .menu {
-            .menu__icon {
-                span {
-                }
-                span {
-                }
-                span {
-                }
+    .menu {
+      .menu__icon {
+        span {
+        }
+        span {
+        }
+        span {
+        }
+      }
+      .menu__body {
+
+        .menu__list {
+          @include flexbox();
+
+          li {
+            position: relative;
+            padding: 0px 35.5px;
+            &:nth-child(2) {
+              padding: 0px 110px 0px 35.5px;
             }
-            .menu__body {
-
-                .menu__list {
-                    @include flexbox();
-
-                    li {
-                        position: relative;
-                        padding: 0px 35.5px;
-                        &:nth-child(2) {
-                            padding: 0px 110px 0px 35.5px;
-                        }
-                        &:nth-child(3) {
-                            padding: 0px 35.5px 0px 110px;
-                        }
-                        // добавляем точки между пунктами меню
-                        &:after {
-                            content: '';
-                            width: 2px;
-                            height: 2px;
-                            background-color: $colorFont;
-                            border-radius: 50%;
-                            position: absolute;
-                            right: 0;
-                            top: 50%;
-                            margin: -2px 0px 0px 0px;
-                        }
-                        // а у второго и последнего элементов убираем точку
-                        &:last-child {
-                            &:after {
-                                display: none;
-                            }
-                        }
-                        &:nth-child(2) {
-                            &:after {
-                                display: none;
-                            }
-                        }
-
-
-                        .menu__link {
-                            font-family: Lato;
-                            font-size: 13px;
-                            line-height: 1.2;
-                            font-weight: 700;
-                            text-transform: uppercase;
-                            letter-spacing: 0.2em;
-                            color: $colorFont;
-                        }
-                    }
-                }
-
-
+            &:nth-child(3) {
+              padding: 0px 35.5px 0px 110px;
             }
-            // ========================================================================================================
-            @media (max-width: $md3+px) {
-                .menu__body {
-                    position: fixed;
-                    width: 100%;
-                    height: 100%;
-                    top: 0;
-                    left: 0;
-                    background-color: $colorFont;
-                    padding: 150px 0px 0px 0px;
-                    overflow: auto;
-                    @include tr(0px, -100%, 0px);
-                    @include anim(0.3s, 0s);
-                    &.active {
-                        @include tr(0px, 0px, 0px);
-                    }
-
-                    .menu__list {
-                        flex-direction: column;
-                        justify-content: center;
-                        align-items: center;
-                        li {
-                            padding: 0 0 45px 0;
-                            &:nth-child(2),
-                            &:nth-child(3) {
-                                padding: 0 0 45px 0;
-                                &:after {
-                                    display: block;
-                                }
-                            }
-                            &:last-child {
-                                padding: 0;
-                            }
-                            &:after {
-                                width: 4px;
-                                height: 4px;
-                                background-color: #fff;
-                                right: 50%;
-                                top: 40px;
-                                margin: 0px -2px 0px 0px;
-                            }
-                            .menu__link {
-                                color: white;
-                                font-size: 20px;
-                            }
-                        }
-                    }
-                }
+            // добавляем точки между пунктами меню
+            &:after {
+              content: '';
+              width: 2px;
+              height: 2px;
+              background-color: $colorFont;
+              border-radius: 50%;
+              position: absolute;
+              right: 0;
+              top: 50%;
+              margin: -2px 0px 0px 0px;
             }
+            // а у второго и последнего элементов убираем точку
+            &:last-child {
+              &:after {
+                display: none;
+              }
+            }
+            &:nth-child(2) {
+              &:after {
+                display: none;
+              }
+            }
+
+
+            .menu__link {
+              font-family: Lato;
+              font-size: 13px;
+              line-height: 1.2;
+              font-weight: 700;
+              text-transform: uppercase;
+              letter-spacing: 0.2em;
+              color: $colorFont;
+            }
+          }
         }
 
-        .header__logo {
-            position: absolute;
-            z-index: 2;
-            left: 50%;
-            top: 0;
-            @include tr(-50%, 0px, 0px);
-            img {
+
+      }
+      // ========================================================================================================
+      @media (max-width: $md3+px) {
+        .menu__body {
+          position: fixed;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          background-color: $colorFont;
+          padding: 150px 0px 0px 0px;
+          overflow: auto;
+          @include tr(0px, -100%, 0px);
+          @include anim(0.3s, 0s);
+          &.active {
+            @include tr(0px, 0px, 0px);
+          }
+
+          .menu__list {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            li {
+              padding: 0 0 45px 0;
+              &:nth-child(2),
+              &:nth-child(3) {
+                padding: 0 0 45px 0;
+                &:after {
+                  display: block;
+                }
+              }
+              &:last-child {
+                padding: 0;
+              }
+              &:after {
+                width: 4px;
+                height: 4px;
+                background-color: #fff;
+                right: 50%;
+                top: 40px;
+                margin: 0px -2px 0px 0px;
+              }
+              .menu__link {
+                color: white;
+                font-size: 20px;
+              }
             }
+          }
         }
+      }
     }
+
+    .header__logo {
+      position: absolute;
+      z-index: 2;
+      left: 50%;
+      top: 0;
+      @include tr(-50%, 0px, 0px);
+      img {
+      }
+    }
+  }
 }
 // меню бургер =================================================================================================
 .icon-menu {
-    @media (max-width: 767px) {
-        display: block;
-        position: absolute;
-        top: 33px;
-        right: 15px;
-        width: 30px;
-        height: 18px;
-        cursor: pointer;
-        z-index: 5;
-        span {
-            @include anim(0.3s, 0s);
-            top: 8px;
-            left: 0px;
-            position: absolute;
-            width: 100%;
-            height: 2px;
-            background-color: $colorFont;
+  @media (max-width: 767px) {
+    display: block;
+    position: absolute;
+    top: 33px;
+    right: 15px;
+    width: 30px;
+    height: 18px;
+    cursor: pointer;
+    z-index: 5;
+    span {
+      @include anim(0.3s, 0s);
+      top: 8px;
+      left: 0px;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: $colorFont;
 
-            &:first-child {
-                top: 0px;
-            }
-            &:last-child {
-                top: auto;
-                bottom: 0px;
-            }
-        }
-        &.active {
-            span {
-                @include scale(0);
-                background-color: white;
-                &:first-child {
-                    @include rotate(-45deg);
-                    top: 8px;
-                }
-                &:last-child {
-                    @include rotate(45deg);
-                    bottom: 8px;
-                }
-            }
-        }
+      &:first-child {
+        top: 0px;
+      }
+      &:last-child {
+        top: auto;
+        bottom: 0px;
+      }
     }
+    &.active {
+      span {
+        @include scale(0);
+        background-color: white;
+        &:first-child {
+          @include rotate(-45deg);
+          top: 8px;
+        }
+        &:last-child {
+          @include rotate(45deg);
+          bottom: 8px;
+        }
+      }
+    }
+  }
 }
 

@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f3617b2-fa44-47f7-b08d-8659ce9b1657" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gulp/fonts/Montserrat-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulp/fonts/Montserrat-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulp/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/_header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/scss/fonts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/#Source/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/scss/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +39,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/#Source/js" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.SCSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -77,6 +59,7 @@
       <workItem from="1619057718087" duration="256000" />
       <workItem from="1619161354881" duration="36000" />
       <workItem from="1619161671984" duration="175000" />
+      <workItem from="1619270982550" duration="701000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1619057947642</created>
@@ -85,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619057947642</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавил бургер меню">
+      <created>1619267668642</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619267668642</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,13 +84,15 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="Добавил бургер меню" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил бургер меню" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2478" y="86" key="CommitChangelistDialog2" timestamp="1619057946897">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state x="490" y="0" key="CommitChangelistDialog2" timestamp="1619267667420">
+      <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="2478" y="86" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619057946897" />
+    <state x="490" y="0" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1619267667420" />
     <state width="1877" height="276" key="GridCell.Tab.0.bottom" timestamp="1619057975795">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
@@ -121,9 +113,14 @@
     </state>
     <state width="1877" height="276" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619057975795" />
     <state width="1431" height="216" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1618710738911" />
-    <state x="2472" y="257" key="Vcs.Push.Dialog.v2" timestamp="1619057951961">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state x="308" y="77" key="SettingsEditor" timestamp="1619272418013">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="308" y="77" key="SettingsEditor/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1619272418013" />
+    <state x="486" y="211" key="Vcs.Push.Dialog.v2" timestamp="1619267676977">
+      <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="2472" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619057951961" />
+    <state x="486" y="211" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1619267676977" />
   </component>
 </project>
