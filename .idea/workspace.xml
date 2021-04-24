@@ -2,11 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f3617b2-fa44-47f7-b08d-8659ce9b1657" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/#Source/_footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#Source/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#Source/js/vendors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/scss/ui.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/scss/ui.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulp/fonts/Montserrat-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulp/fonts/Montserrat-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulp/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#Source/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/_header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#Source/fonts/Roboto-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/#Source/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#Source/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#Source/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/scss/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#Source/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/scss/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#Source/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +43,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1rK2clN1x3aJHpuvZGZsz9ocDxi" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
