@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f3617b2-fa44-47f7-b08d-8659ce9b1657" name="Default Changelist" comment="Добавил бургер меню" />
+    <list default="true" id="7f3617b2-fa44-47f7-b08d-8659ce9b1657" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Media_запросы.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Media_запросы.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson16_MetaTeg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson16_MetaTeg.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6_styleText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6_styleText.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson7_block_style.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7_block_style.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9_Background.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9_Background.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Адаптив_изображений.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Адаптив_изображений.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +43,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/#Source/js" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.SCSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -57,6 +71,8 @@
       <workItem from="1619161354881" duration="36000" />
       <workItem from="1619161671984" duration="175000" />
       <workItem from="1619270982550" duration="983000" />
+      <workItem from="1619272712256" duration="25000" />
+      <workItem from="1619273344400" duration="918000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1619057947642</created>
@@ -79,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619272661702</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавил бургер меню">
+      <created>1619272728406</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619272728406</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,11 +115,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="Добавил бургер меню" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="490" y="0" key="CommitChangelistDialog2" timestamp="1619272685902">
+    <state x="490" y="0" key="CommitChangelistDialog2" timestamp="1619272727494">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="2478" y="86" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619057946897" />
-    <state x="490" y="0" key="CommitChangelistDialog2/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1619272685902" />
+    <state x="490" y="0" key="CommitChangelistDialog2/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1619272727494" />
     <state x="490" y="0" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1619267667420" />
     <state width="1877" height="276" key="GridCell.Tab.0.bottom" timestamp="1619057975795">
       <screen x="1920" y="0" width="1920" height="1050" />
@@ -122,11 +145,11 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="308" y="77" key="SettingsEditor/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1619272418013" />
-    <state x="486" y="211" key="Vcs.Push.Dialog.v2" timestamp="1619272688771">
+    <state x="486" y="211" key="Vcs.Push.Dialog.v2" timestamp="1619272731441">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="2472" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619057951961" />
-    <state x="486" y="211" key="Vcs.Push.Dialog.v2/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1619272688771" />
+    <state x="486" y="211" key="Vcs.Push.Dialog.v2/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1619272731441" />
     <state x="486" y="211" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1619267676977" />
   </component>
 </project>
