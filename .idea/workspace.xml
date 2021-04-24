@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f3617b2-fa44-47f7-b08d-8659ce9b1657" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/#Source/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/scss/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7f3617b2-fa44-47f7-b08d-8659ce9b1657" name="Default Changelist" comment="Добавил бургер меню" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +56,7 @@
       <workItem from="1619057718087" duration="256000" />
       <workItem from="1619161354881" duration="36000" />
       <workItem from="1619161671984" duration="175000" />
-      <workItem from="1619270982550" duration="701000" />
+      <workItem from="1619270982550" duration="983000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1619057947642</created>
@@ -75,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619267668642</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавил бургер меню">
+      <created>1619272661702</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619272661702</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,10 +92,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="Добавил бургер меню" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="490" y="0" key="CommitChangelistDialog2" timestamp="1619267667420">
+    <state x="490" y="0" key="CommitChangelistDialog2" timestamp="1619272685902">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="2478" y="86" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619057946897" />
+    <state x="490" y="0" key="CommitChangelistDialog2/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1619272685902" />
     <state x="490" y="0" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1619267667420" />
     <state width="1877" height="276" key="GridCell.Tab.0.bottom" timestamp="1619057975795">
       <screen x="1920" y="0" width="1920" height="1050" />
@@ -117,10 +122,11 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="308" y="77" key="SettingsEditor/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1619272418013" />
-    <state x="486" y="211" key="Vcs.Push.Dialog.v2" timestamp="1619267676977">
+    <state x="486" y="211" key="Vcs.Push.Dialog.v2" timestamp="1619272688771">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="2472" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619057951961" />
+    <state x="486" y="211" key="Vcs.Push.Dialog.v2/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1619272688771" />
     <state x="486" y="211" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1619267676977" />
   </component>
 </project>
