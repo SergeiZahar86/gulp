@@ -1,12 +1,14 @@
 
 
 // Для меню бургер
+/*
 $('.icon-menu').click(function(event) {
 	$(this).toggleClass('active');
 	$('.menu__body').toggleClass('active');
 	$('body').toggleClass('lock');
 });
 
+*/
 
 
 // JS-функция определения поддержки WebP

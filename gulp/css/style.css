@@ -124,6 +124,10 @@ h6 {
   width: 100%;
 }
 
+body {
+  overflow: auto;
+}
+
 .header {
   position: absolute;
   width: 100%;
@@ -230,6 +234,10 @@ h6 {
   .container {
     max-width: none;
     padding: 0 10px;
+  }
+
+  body.lock {
+    overflow: hidden;
   }
 
   .header {
