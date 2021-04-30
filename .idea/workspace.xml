@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f3617b2-fa44-47f7-b08d-8659ce9b1657" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/#Source/scss/mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/#Source/scss/null.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +65,7 @@
       <workItem from="1619161354881" duration="36000" />
       <workItem from="1619161671984" duration="175000" />
       <workItem from="1619515690294" duration="1866000" />
-      <workItem from="1619762282435" duration="389000" />
+      <workItem from="1619762282435" duration="1175000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1619057947642</created>
@@ -84,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619525443780</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="перенес стили обнуления и миксины в отдельные файлы">
+      <created>1619762727694</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619762727694</updated>
+    </task>
+    <task id="LOCAL-00004" summary="перенес стили обнуления и миксины в отдельные файлы">
+      <created>1619762859675</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619762859675</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,13 +106,14 @@
     <MESSAGE value="1" />
     <MESSAGE value="Добавил бургер меню" />
     <MESSAGE value="Добавил слайдер" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил слайдер" />
+    <MESSAGE value="перенес стили обнуления и миксины в отдельные файлы" />
+    <option name="LAST_COMMIT_MESSAGE" value="перенес стили обнуления и миксины в отдельные файлы" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="558" y="86" key="CommitChangelistDialog2" timestamp="1619525443023">
+    <state x="558" y="86" key="CommitChangelistDialog2" timestamp="1619762858935">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="558" y="86" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1619525443023" />
+    <state x="558" y="86" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1619762858935" />
     <state x="2478" y="86" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619057946897" />
     <state x="490" y="0" key="CommitChangelistDialog2/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1619272727494" />
     <state x="490" y="0" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1619267667420" />
@@ -125,10 +137,10 @@
     </state>
     <state width="1877" height="276" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619057975795" />
     <state width="1431" height="216" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1618710738911" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1619525447581">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1619762863699">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1619525447581" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1619762863699" />
     <state x="2472" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619057951961" />
     <state x="486" y="211" key="Vcs.Push.Dialog.v2/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1619272731441" />
     <state x="486" y="211" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1619267676977" />
