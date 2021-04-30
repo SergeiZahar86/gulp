@@ -1,6 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;
-
-400;700;900&display=swap");
 @font-face {
   font-family: "Montserrat-Bold";
   font-display: swap;
@@ -218,9 +215,62 @@ body {
   display: none;
 }
 
+.slick-slider {
+  position: relative;
+}
+
+.slick-slider .slick-list {
+  overflow: hidden;
+}
+
+.slick-slider .slick-track {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 0;
+  align-items: flex-start;
+}
+
+.slick-slider .slick-dots {
+  padding: 100px 0px 0px 0px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-slider .slick-dots li {
+  margin: 0px 5px;
+}
+
+.slick-slider .slick-dots li button {
+  font-size: 0;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 1px solid #c8c8c8;
+  background-color: transparent;
+}
+
+.slick-slider .slick-dots li.slick-active button {
+  background-color: #a9afb3;
+}
+
 @media (max-width: 1112px) {
   .container {
     max-width: 970px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .slick-slider .slick-dots {
+    padding: 50px 0px 0px 0px;
   }
 }
 
@@ -364,5 +414,9 @@ body {
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
     bottom: 8px;
+  }
+
+  .slick-slider .slick-dots {
+    padding: 30px 0px 0px 0px;
   }
 }
