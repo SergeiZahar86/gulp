@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f3617b2-fa44-47f7-b08d-8659ce9b1657" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/#Source/js/slick.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#Source/scss/ui.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/scss/ui.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#Source/scss/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/#Source/scss/null.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#Source/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#Source/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulp/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/css/style.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +67,8 @@
       <workItem from="1619057718087" duration="256000" />
       <workItem from="1619161354881" duration="36000" />
       <workItem from="1619161671984" duration="175000" />
-      <workItem from="1619515690294" duration="1834000" />
+      <workItem from="1619515690294" duration="1866000" />
+      <workItem from="1619762282435" duration="389000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1619057947642</created>
@@ -80,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619057947642</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавил слайдер">
+      <created>1619525443780</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619525443780</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,12 +94,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1" />
     <MESSAGE value="Добавил бургер меню" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил бургер меню" />
+    <MESSAGE value="Добавил слайдер" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил слайдер" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2478" y="86" key="CommitChangelistDialog2" timestamp="1619057946897">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state x="558" y="86" key="CommitChangelistDialog2" timestamp="1619525443023">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="558" y="86" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1619525443023" />
     <state x="2478" y="86" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619057946897" />
     <state x="490" y="0" key="CommitChangelistDialog2/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1619272727494" />
     <state x="490" y="0" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1619267667420" />
@@ -119,9 +125,10 @@
     </state>
     <state width="1877" height="276" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619057975795" />
     <state width="1431" height="216" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1618710738911" />
-    <state x="2472" y="257" key="Vcs.Push.Dialog.v2" timestamp="1619057951961">
-      <screen x="1920" y="0" width="1920" height="1050" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1619525447581">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1619525447581" />
     <state x="2472" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619057951961" />
     <state x="486" y="211" key="Vcs.Push.Dialog.v2/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1619272731441" />
     <state x="486" y="211" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1619267676977" />
