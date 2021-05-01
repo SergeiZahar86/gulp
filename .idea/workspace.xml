@@ -4,6 +4,7 @@
     <list default="true" id="7f3617b2-fa44-47f7-b08d-8659ce9b1657" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+    <list default="true" id="7f3617b2-fa44-47f7-b08d-8659ce9b1657" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,8 +34,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/#Source/js" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -66,6 +69,9 @@
       <workItem from="1619161671984" duration="175000" />
       <workItem from="1619515690294" duration="1866000" />
       <workItem from="1619762282435" duration="1175000" />
+      <workItem from="1619270982550" duration="983000" />
+      <workItem from="1619272712256" duration="25000" />
+      <workItem from="1619273344400" duration="955000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1619057947642</created>
@@ -95,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619762859675</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Добавил бургер меню">
+      <created>1619278292427</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619278292427</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Добавил бургер меню">
+      <created>1619278315831</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1619278315831</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +136,7 @@
     <state x="558" y="86" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1619762858935" />
     <state x="2478" y="86" key="CommitChangelistDialog2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619057946897" />
     <state x="490" y="0" key="CommitChangelistDialog2/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1619272727494" />
-    <state x="490" y="0" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1619267667420" />
+    <state x="490" y="0" key="CommitChangelistDialog2/62.0.1474.864@62.0.1474.864" timestamp="1619278314960" />
     <state width="1877" height="276" key="GridCell.Tab.0.bottom" timestamp="1619057975795">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
@@ -139,6 +159,12 @@
     <state width="1431" height="216" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1618710738911" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1619762863699">
       <screen x="0" y="0" width="1920" height="1050" />
+    <state x="308" y="77" key="SettingsEditor" timestamp="1619272418013">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="308" y="77" key="SettingsEditor/62.0.1474.864/1982.0.1858.1080@62.0.1474.864" timestamp="1619272418013" />
+    <state x="486" y="211" key="Vcs.Push.Dialog.v2" timestamp="1619278318750">
+      <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1619762863699" />
     <state x="2472" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1619057951961" />
@@ -148,5 +174,6 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="763" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1619426239953" />
+    <state x="486" y="211" key="Vcs.Push.Dialog.v2/62.0.1474.864@62.0.1474.864" timestamp="1619278318750" />
   </component>
 </project>
