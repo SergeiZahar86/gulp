@@ -13,6 +13,7 @@ let path = {
         js: project_folder + "/js/",
         img: project_folder + "/img/",
         fonts: project_folder + "/fonts/",
+        awesome: project_folder + "/webfonts/",
     },
     src: {
         html: [source_folder + "/*.html", "!" + source_folder + "/_*.html"],
@@ -21,6 +22,8 @@ let path = {
         js: source_folder + "/js/script.js",
         img: source_folder + "/img/**/*.{jpg,png,svg,gif,ico,webp}",
         fonts: source_folder + "/fonts/*.ttf",
+        //fonts: [source_folder + "/fonts/*.ttf", source_folder + "/fonts/webfonts/*"],
+        awesome: source_folder + "/webfonts/*",
     },
     // файлы которые необходимо прослушивать
     watch: {
@@ -66,7 +69,12 @@ function browserSync(params) {
         }
     })
 }
-
+function awesome() {
+    return src(path.src.awesome)
+        .pipe(fileinclude())
+        .pipe(dest(path.build.awesome))         // pipe() функция в которой мы пишем команды для gulp
+        .pipe(browsersync.stream())          // обновить страницу
+}
 // функция работы с html файлами
 function html() {
     return src(path.src.html)
@@ -220,11 +228,12 @@ function clean(params) {
 
 
 // серии выполняемых функций
-let build = gulp.series(clean, gulp.parallel(images, fonts, js, css, html), fontsStyle);
+let build = gulp.series(clean, gulp.parallel(images, fonts, js, css, html, awesome), fontsStyle);
 let watch = gulp.parallel(build, watchFiles, browserSync);    // паралельное выполнение
 
 // необходимо "подружить" переменные с gulp
 
+exports.awesome = awesome;
 exports.fontsStyle = fontsStyle;
 exports.fonts = fonts;
 exports.images = images;
