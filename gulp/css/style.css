@@ -1,40 +1,136 @@
 @font-face {
-  font-family: "fa-brands-400";
+  font-family: "Montserrat";
   font-display: swap;
-  src: url("../fonts/fa-brands-400.woff") format("woff"), url("../fonts/fa-brands-400.woff2") format("woff2");
-  font-weight: 400;
+  src: url("../fonts/Montserrat-Black.woff") format("woff"), url("../fonts/Montserrat-Black.woff2") format("woff2");
+  font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "fa-regular-400";
+  font-family: "Montserrat";
   font-display: swap;
-  src: url("../fonts/fa-regular-400.woff") format("woff"), url("../fonts/fa-regular-400.woff2") format("woff2");
-  font-weight: 400;
+  src: url("../fonts/Montserrat-BoldItalic.woff") format("woff"), url("../fonts/Montserrat-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "fa-solid-900";
+  font-family: "Montserrat";
   font-display: swap;
-  src: url("../fonts/fa-solid-900.woff") format("woff"), url("../fonts/fa-solid-900.woff2") format("woff2");
-  font-weight: 400;
+  src: url("../fonts/Montserrat-BlackItalic.woff") format("woff"), url("../fonts/Montserrat-BlackItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  src: url("../fonts/Montserrat-ExtraBold.woff") format("woff"), url("../fonts/Montserrat-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Montserrat-Bold";
+  font-family: "Montserrat";
   font-display: swap;
   src: url("../fonts/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold.woff2") format("woff2");
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Montserrat-Regular";
+  font-family: "Montserrat";
+  font-display: swap;
+  src: url("../fonts/Montserrat-ExtraBoldItalic.woff") format("woff"), url("../fonts/Montserrat-ExtraBoldItalic.woff2") format("woff2");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  src: url("../fonts/Montserrat-ExtraLightItalic.woff") format("woff"), url("../fonts/Montserrat-ExtraLightItalic.woff2") format("woff2");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  src: url("../fonts/Montserrat-ExtraLight.woff") format("woff"), url("../fonts/Montserrat-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  src: url("../fonts/Montserrat-Light.woff") format("woff"), url("../fonts/Montserrat-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  src: url("../fonts/Montserrat-LightItalic.woff") format("woff"), url("../fonts/Montserrat-LightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  src: url("../fonts/Montserrat-MediumItalic.woff") format("woff"), url("../fonts/Montserrat-MediumItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  src: url("../fonts/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  src: url("../fonts/Montserrat-SemiBold.woff") format("woff"), url("../fonts/Montserrat-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
   font-display: swap;
   src: url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.woff2") format("woff2");
   font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  src: url("../fonts/Montserrat-ThinItalic.woff") format("woff"), url("../fonts/Montserrat-ThinItalic.woff2") format("woff2");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  src: url("../fonts/Montserrat-SemiBoldItalic.woff") format("woff"), url("../fonts/Montserrat-SemiBoldItalic.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-display: swap;
+  src: url("../fonts/Montserrat-Thin.woff") format("woff"), url("../fonts/Montserrat-Thin.woff2") format("woff2");
+  font-weight: 100;
   font-style: normal;
 }
 
@@ -6267,6 +6363,242 @@ readers do not read off random characters that represent icons */
   font-weight: 900;
 }
 
+@font-face {
+  font-family: 'myIconsSet';
+  src: url("../my_Icons_Fonts/myIconsSet.eot?4ch6of");
+  src: url("../my_Icons_Fonts/myIconsSet.eot?4ch6of#iefix") format("embedded-opentype"), url("../my_Icons_Fonts/myIconsSet.ttf?4ch6of") format("truetype"), url("../my_Icons_Fonts/myIconsSet.woff?4ch6of") format("woff"), url("../my_Icons_Fonts/myIconsSet.svg?4ch6of#myIconsSet") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="myIcon-"]::before,
+[class*=" myIcon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'myIconsSet' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.myIcon-abacus:before {
+  content: "\e900";
+}
+
+.myIcon-angle-double-down:before {
+  content: "\e901";
+}
+
+.myIcon-angle-double-left:before {
+  content: "\e902";
+}
+
+.myIcon-angle-double-right:before {
+  content: "\e903";
+}
+
+.myIcon-angle-double-up:before {
+  content: "\e904";
+}
+
+.myIcon-angle-down:before {
+  content: "\e905";
+}
+
+.myIcon-angle-left:before {
+  content: "\e906";
+}
+
+.myIcon-angle-right:before {
+  content: "\e907";
+}
+
+.myIcon-angle-up:before {
+  content: "\e908";
+}
+
+.myIcon-bars:before {
+  content: "\e909";
+}
+
+.myIcon-chevron-double-down:before {
+  content: "\e90a";
+}
+
+.myIcon-chevron-double-left:before {
+  content: "\e90b";
+}
+
+.myIcon-chevron-double-right:before {
+  content: "\e90c";
+}
+
+.myIcon-chevron-double-up:before {
+  content: "\e90d";
+}
+
+.myIcon-chevron-down:before {
+  content: "\e90e";
+}
+
+.myIcon-chevron-left:before {
+  content: "\e90f";
+}
+
+.myIcon-chevron-right:before {
+  content: "\e910";
+}
+
+.myIcon-chevron-up:before {
+  content: "\e911";
+}
+
+.myIcon-clipboard-list:before {
+  content: "\e912";
+}
+
+.myIcon-clipboard-list-check:before {
+  content: "\e913";
+}
+
+.myIcon-close:before {
+  content: "\e914";
+}
+
+.myIcon-comment-lines:before {
+  content: "\e915";
+}
+
+.myIcon-comments:before {
+  content: "\e916";
+}
+
+.myIcon-envelope:before {
+  content: "\e917";
+}
+
+.myIcon-filter:before {
+  content: "\e918";
+}
+
+.myIcon-filters_funnel:before {
+  content: "\e919";
+}
+
+.myIcon-globe:before {
+  content: "\e91a";
+}
+
+.myIcon-globe-americas:before {
+  content: "\e91b";
+}
+
+.myIcon-globe-europe:before {
+  content: "\e91c";
+}
+
+.myIcon-heart:before {
+  content: "\e91d";
+}
+
+.myIcon-house-user:before {
+  content: "\e91e";
+}
+
+.myIcon-id-card:before {
+  content: "\e91f";
+}
+
+.myIcon-list_filter:before {
+  content: "\e920";
+}
+
+.myIcon-list-alt:before {
+  content: "\e921";
+}
+
+.myIcon-list-ul:before {
+  content: "\e922";
+}
+
+.myIcon-paper-plane:before {
+  content: "\e923";
+}
+
+.myIcon-search:before {
+  content: "\e924";
+}
+
+.myIcon-shopping-bag:before {
+  content: "\e925";
+}
+
+.myIcon-shopping-cart:before {
+  content: "\e926";
+}
+
+.myIcon-sort:before {
+  content: "\e927";
+}
+
+.myIcon-sort-alt:before {
+  content: "\e928";
+}
+
+.myIcon-sort-amount-down:before {
+  content: "\e929";
+}
+
+.myIcon-sort-amount-down-alt:before {
+  content: "\e92a";
+}
+
+.myIcon-sort-amount-up:before {
+  content: "\e92b";
+}
+
+.myIcon-sort-amount-up-alt:before {
+  content: "\e92c";
+}
+
+.myIcon-sort-down:before {
+  content: "\e92d";
+}
+
+.myIcon-sort-up:before {
+  content: "\e92e";
+}
+
+.myIcon-th-list:before {
+  content: "\e92f";
+}
+
+.myIcon-user:before {
+  content: "\e930";
+}
+
+.myIcon-user-alt:before {
+  content: "\e931";
+}
+
+.myIcon-user-check:before {
+  content: "\e932";
+}
+
+.myIcon-user-lock:before {
+  content: "\e933";
+}
+
+.myIcon-user-unlock:before {
+  content: "\e934";
+}
+
 .wrapper {
   width: 100%;
   min-height: 100%;
@@ -6280,8 +6612,9 @@ readers do not read off random characters that represent icons */
 }
 
 .container {
-  max-width: 1100px;
+  max-width: 1180px;
   margin: 0 auto;
+  padding: 0px 20px;
   width: 100%;
 }
 
@@ -6335,7 +6668,7 @@ body {
   content: '';
   width: 2px;
   height: 2px;
-  background-color: #4d4959;
+  background-color: green;
   border-radius: 50%;
   position: absolute;
   right: 0;
@@ -6358,7 +6691,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #4d4959;
+  color: green;
 }
 
 .header .header__row .header__logo {
@@ -6369,14 +6702,13 @@ body {
   transform: translate3d(-50%, 0px, 0px);
 }
 
-.link {
-  font-family: "Montserrat-Regular";
-  font-size: 50px;
-  line-height: 18px;
-  font-weight: 700;
-  text-decoration: none;
+.main {
+  width: 100%;
+  height: 2000px;
+  font-size: 18px;
   color: #1b3139;
-  margin: 30px;
+  line-height: 28px;
+  padding: 200px 0px 0px 0px;
 }
 
 .ibg {
@@ -6436,21 +6768,9 @@ body {
   background-color: #a9afb3;
 }
 
-@media (max-width: 1112px) {
-  .container {
-    max-width: 970px;
-  }
-}
-
 @media (max-width: 1100px) {
   .slick-slider .slick-dots {
     padding: 50px 0px 0px 0px;
-  }
-}
-
-@media (max-width: 992.98px) {
-  .container {
-    max-width: 750px;
   }
 }
 
@@ -6474,7 +6794,7 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #4d4959;
+    background-color: green;
     padding: 150px 0px 0px 0px;
     overflow: auto;
     transform: translate3d(0px, -100%, 0px);
@@ -6551,7 +6871,7 @@ body {
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #4d4959;
+    background-color: green;
   }
 
   .icon-menu span:first-child {

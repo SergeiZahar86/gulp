@@ -14,16 +14,18 @@ let path = {
         img: project_folder + "/img/",
         fonts: project_folder + "/fonts/",
         awesome: project_folder + "/webfonts/",
+        my_Icons_Fonts: project_folder + "/my_Icons_Fonts/",
     },
     src: {
         html: [source_folder + "/*.html", "!" + source_folder + "/_*.html"],
         //css: source_folder + "/scss/style.scss",
         css: [source_folder + "/scss/style.scss", source_folder + "/scss/iconfontAwesome.css"],
-        js: source_folder + "/js/script.js",
+        js: source_folder + "/js/*.js",
         img: source_folder + "/img/**/*.{jpg,png,svg,gif,ico,webp}",
         fonts: source_folder + "/fonts/*.ttf",
-        //fonts: [source_folder + "/fonts/*.ttf", source_folder + "/fonts/webfonts/*"],
+        //my_Icons_Fonts: [source_folder + "/my_Icons_Fonts/*.ttf", source_folder + "/my_Icons_Fonts/webfonts"],
         awesome: source_folder + "/webfonts/*",
+        my_Icons_Fonts: source_folder + "/my_Icons_Fonts/*",
     },
     // файлы которые необходимо прослушивать
     watch: {
@@ -69,12 +71,22 @@ function browserSync(params) {
         }
     })
 }
+
+function my_Icons_Fonts() {
+    return src(path.src.my_Icons_Fonts)
+        .pipe(fileinclude())
+        .pipe(dest(path.build.my_Icons_Fonts))         // pipe() функция в которой мы пишем команды для gulp
+        .pipe(browsersync.stream())          // обновить страницу
+}
+
 function awesome() {
     return src(path.src.awesome)
         .pipe(fileinclude())
         .pipe(dest(path.build.awesome))         // pipe() функция в которой мы пишем команды для gulp
         .pipe(browsersync.stream())          // обновить страницу
 }
+
+
 // функция работы с html файлами
 function html() {
     return src(path.src.html)
@@ -134,7 +146,7 @@ function images() {
     return src(path.src.img)
         .pipe(
             webp({
-                quality: 70
+                quality: 100
             })
         )
         .pipe(dest(path.build.img))
@@ -144,7 +156,7 @@ function images() {
                 progressive: true,
                 svgoPlugins: [{removeViewBox: false}],
                 interlaced: true,
-                optimizationLevel: 3                          // от 0 до 7
+                optimizationLevel: 0                          // от 0 до 7
             })
         )
         .pipe(dest(path.build.img))         // pipe() функция в которой мы пишем команды для gulp
@@ -228,11 +240,12 @@ function clean(params) {
 
 
 // серии выполняемых функций
-let build = gulp.series(clean, gulp.parallel(images, fonts, js, css, html, awesome), fontsStyle);
+let build = gulp.series(clean, gulp.parallel(my_Icons_Fonts, images, fonts, js, css, html,awesome), fontsStyle);
 let watch = gulp.parallel(build, watchFiles, browserSync);    // паралельное выполнение
 
 // необходимо "подружить" переменные с gulp
 
+exports.my_Icons_Fonts = my_Icons_Fonts;
 exports.awesome = awesome;
 exports.fontsStyle = fontsStyle;
 exports.fonts = fonts;

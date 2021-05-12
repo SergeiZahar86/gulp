@@ -4,7 +4,6 @@
     <list default="true" id="7f3617b2-fa44-47f7-b08d-8659ce9b1657" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <list default="true" id="7f3617b2-fa44-47f7-b08d-8659ce9b1657" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,9 +68,6 @@
       <workItem from="1619161671984" duration="175000" />
       <workItem from="1619515690294" duration="1866000" />
       <workItem from="1619762282435" duration="1175000" />
-      <workItem from="1619270982550" duration="983000" />
-      <workItem from="1619272712256" duration="25000" />
-      <workItem from="1619273344400" duration="955000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1619057947642</created>
@@ -101,21 +97,7 @@
       <option name="project" value="LOCAL" />
       <updated>1619762859675</updated>
     </task>
-    <task id="LOCAL-00005" summary="Добавил бургер меню">
-      <created>1619278292427</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1619278292427</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Добавил бургер меню">
-      <created>1619278315831</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1619278315831</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
